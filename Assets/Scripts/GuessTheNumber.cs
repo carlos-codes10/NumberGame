@@ -10,7 +10,7 @@ public class GuessTheNumber : MonoBehaviour
     int Number;
     int Attempts;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void Start()
+    public void Start()  //made void public for 'Reset Game' button.
     {
         GameSetup();
     }
